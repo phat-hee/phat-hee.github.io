@@ -1,3 +1,17 @@
+
+
+
 title: "Mohammad Fathi"
-description: "Machine Learning and Deep Learning | Computational Neuroscience | Brain–Computer Interaction (BCI) | Signal Processing and Neuroimaging Analysis"
+logo: /profile.jpg   # Change to your image file (or remove if not needed)
 theme: jekyll-theme-minimal
+description: >
+  Master’s graduate in Data Mining (Kharazmi University)  
+  Research: AI, Data Mining, Computational Neuroscience, and Neuroimaging Analysis 
+  <br><br>
+  <a href="https://phat-hee.github.io/Mohammad_Fathi_CV_oct.pdf" target="_blank">📄 CV</a><br>
+  <a href="mailto:mohammad.s.fathi98@gmail.com">✉️ mohammad.s.fathi98@gmail.com</a><br>
+  <a href="https://github.com/phat-hee">🐙 GitHub</a><br>
+  <a href="https://linkedin.com/in/mohammad-fathi98">🔗 LinkedIn</a>
+
+show_downloads: false
+google_analytics:
