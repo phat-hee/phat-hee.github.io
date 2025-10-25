@@ -21,11 +21,11 @@ I conducted my thesis research at the **Kharazmi Cognitive and Brain Science Lab
 ### 🧠 Under Review
 - **A Novel Hybrid Method Based on Deep Learning for Alzheimer’s Disease Diagnosis**  
   *M. Fathi, M. Faramarzi, M. Gholami, M.M. Pedram*  
-  _Applied Intelligence_  
+  [_Applied Intelligence_]  
 
 - **Predicting Cognitive Impairment and Dementia in the Health and Retirement Study of America: A Machine and Deep Learning Approach**  
   *N. Alipour, M. Faramarzi, M. Gholami, M. Fathi, N. Deravi*  
-  _Acta Neurologica Belgica_
+  [_Acta Neurologica Belgica_]
 
 ---
 
