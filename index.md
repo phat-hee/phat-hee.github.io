@@ -11,5 +11,5 @@ I'm Mohammad Fathi — a researcher passionate about **AI, neuroimaging, and bra
 [Download my CV](https://github.com/phat-hee/phat-hee.github.io/blob/main/Mohammad_Fathi_CV_oct.pdf)
 
 ## 📬 Contact
-📧 mohammad.fathi@email.com  
-🔗 [GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
+📧 mohammad.s.fathi98@gmail.com
+🔗 [GitHub](https://github.com/phat-hee) | [LinkedIn](https://linkedin.com/in/mohammad-fathi98)
