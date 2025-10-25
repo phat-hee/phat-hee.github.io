@@ -8,7 +8,7 @@ I'm Mohammad Fathi — a researcher passionate about **AI, neuroimaging, and bra
 - **ABIDE fMRI Graph Analysis:** Automated temporal graph generation and sliding-window connectivity modeling.
 
 ## 📄 CV
-[Download my CV](CV_MohammadFathi.pdf)
+[Download my CV](https://github.com/phat-hee/phat-hee.github.io/blob/main/Mohammad_Fathi_CV_oct.pdf)
 
 ## 📬 Contact
 📧 mohammad.fathi@email.com  
