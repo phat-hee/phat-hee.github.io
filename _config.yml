@@ -5,7 +5,7 @@ plugins:
 
 
 title: "Mohammad Fathi"
-# Change to your image file (or remove if not needed)
+
 theme: jekyll-theme-minimal
 description: >
   Master’s graduate in Data Mining (Kharazmi University)  
