@@ -1,0 +1,9 @@
+.sidebar a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
