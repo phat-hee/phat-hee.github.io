@@ -9,24 +9,15 @@ I'm Mohammad Fathi — a researcher passionate about **AI, neuroimaging, and bra
 
 ## 📄 CV
 <p>
-  <!-- View CV (opens in a new tab) -->
-  <a href="Mohammad_Fathi_CV_oct.pdf" target="_blank" style="
+  <a href="https://phat-hee.github.io/Mohammad_Fathi_CV_oct.pdf" target="_blank" style="
     background-color:#007acc;
     color:white;
     padding:10px 20px;
     border-radius:8px;
     text-decoration:none;
     margin-right:10px;
-  ">👀 View CV</a>
+  ">👀 View/Download CV</a>
 
-  <!-- Download CV (forces download) -->
-  <a href="Mohammad_Fathi_CV_oct.pdf" download="Mohammad_Fathi_CV.pdf" style="
-    background-color:#28a745;
-    color:white;
-    padding:10px 20px;
-    border-radius:8px;
-    text-decoration:none;
-  ">⬇️ Download CV</a>
 </p>
 
 
