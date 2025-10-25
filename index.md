@@ -3,6 +3,18 @@
 I'm **Mohammad Fathi**, a **Master’s graduate in Data Mining** from **Kharazmi University** (GPA: 3.74/4.0).  
 My research bridges **Artificial Intelligence, Data Mining, and Computational Neuroscience**, with a focus on **neuroimaging analysis**, and **brain–computer interfaces (BCI)**.
 
+title: "Mohammad Fathi"
+logo: /profile.jpg   # or whatever your image is called
+description: >
+  Master’s graduate in Data Mining (Kharazmi University)  
+  Research: AI, Data Mining, and Computational Neuroscience  
+  <br><br>
+  <a href="https://phat-hee.github.io/Mohammad_Fathi_CV_oct.pdf" target="_blank">📄 CV</a><br>
+  <a href="mailto:mohammad.s.fathi98@gmail.com">✉️ mohammad.s.fathi98@gmail.com</a><br>
+  <a href="https://github.com/phat-hee">🐙 GitHub</a><br>
+  <a href="https://linkedin.com/in/mohammad-fathi98">🔗 LinkedIn</a>
+
+
 I conducted my thesis research at the **Kharazmi Cognitive and Brain Science Lab** under the supervision of **Dr. Mir Mohsen Pedram**, where I developed a **temporal graph neural network (TGNN)** framework to classify **Mild Cognitive Impairment (MCI)** and **healthy controls (HC)** using **fNIRS** resting-state data.
 
 ---
