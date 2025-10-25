@@ -1,7 +1,7 @@
 # Welcome 👋
 
 I'm **Mohammad Fathi**, a **Master’s graduate in Data Mining** from **Kharazmi University** (GPA: 3.74/4.0).  
-My research bridges **Artificial Intelligence, Data Mining, and Computational Neuroscience**, with a focus on **neuroimaging analysis**, **brain–computer interfaces (BCI)**, and **graph-based deep learning**.
+My research bridges **Artificial Intelligence, Data Mining, and Computational Neuroscience**, with a focus on **neuroimaging analysis**, and **brain–computer interfaces (BCI)**.
 
 I conducted my thesis research at the **Kharazmi Cognitive and Brain Science Lab** under the supervision of **Dr. Mir Mohsen Pedram**, where I developed a **temporal graph neural network (TGNN)** framework to classify **Mild Cognitive Impairment (MCI)** and **healthy controls (HC)** using **fNIRS** resting-state data.
 
