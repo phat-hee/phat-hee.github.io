@@ -41,7 +41,7 @@ I conducted my thesis research at the **Kharazmi Cognitive and Brain Science Lab
 ## 🎓 Teaching & Outreach
 
 - **Teaching Assistant (Machine Learning Course):** Designed assignments, mentored students, and supported coursework at Kharazmi University.  
-- **Workshop Speaker:** Led a university seminar on *AI in Neuroscience*, discussing applications in **BCI**, **neuroimaging**, **autonomous vehicles**, and **cognitive research**.  
+- **Workshop Speaker:** Led a university seminar on *AI in Neuroscience*, discussing applications in **BCI**, **neuroimaging**, and **cognitive research**.  
 - **Research Assistant:** Acquired and preprocessed fNIRS/EEG data, and trained students to operate neuroimaging hardware.  
 
 ---
