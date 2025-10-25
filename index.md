@@ -16,11 +16,25 @@ I conducted my thesis research at the **Kharazmi Cognitive and Brain Science Lab
 
 ---
 
-## 💡 Research Highlights
+## 📚 Publications
 
-- Applied **temporal GNNs** to classify **Alzheimer’s disease (AD)** and **Frontotemporal Dementia (FTD)** using EEG data.  
-- Proposed **GNN-based explainability methods** for classifying **Autism Spectrum Disorder (ASD)** in the **ABIDE-I** fMRI dataset.  
-- Investigated **contrastive learning** on fMRI graphs for **Alzheimer’s diagnosis** (under review).  
+### 🧠 Under Review
+- **A Novel Hybrid Method Based on Deep Learning for Alzheimer’s Disease Diagnosis**  
+  *M. Fathi, M. Faramarzi, M. Gholami, M.M. Pedram*  
+  _Applied Intelligence_  
+
+- **Predicting Cognitive Impairment and Dementia in the Health and Retirement Study of America: A Machine and Deep Learning Approach**  
+  *N. Alipour, M. Faramarzi, M. Gholami, M. Fathi, N. Deravi*  
+  _Acta Neurologica Belgica_
+
+---
+
+### ⚙️ Work in Progress
+- **Classification of Healthy Controls vs. Alzheimer’s and Frontotemporal Dementia Using Temporal Graph Neural Networks: A Resting-State EEG Study**  
+  *M. Fathi, M. Faramarzi, M. Gholami, M.M. Pedram*
+
+- **Graph Neural Networks with Explainability for Classifying Autism Spectrum Disorder in the ABIDE-I Resting-State fMRI Dataset**  
+  *M. Fathi, M. Faramarzi, M. Gholami, M. Pakravan*
 
 ---
 
