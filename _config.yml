@@ -1,15 +1,9 @@
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-remote-theme
-
-
-
+# --- Site settings ---
 title: "Mohammad Fathi"
-
-theme: jekyll-theme-minimal
+logo: /profile.jpg   # optional – change or remove if no profile image
 description: >
   Master’s graduate in Data Mining (Kharazmi University)  
-  Research: AI, Data Mining, Computational Neuroscience, and Neuroimaging Analysis 
+  Research: AI, Data Mining, Computational Neuroscience, and Neuroimaging Analysis  
   <br><br>
   <a href="https://phat-hee.github.io/Mohammad_Fathi_CV_oct.pdf" target="_blank">📄 CV</a><br>
   <a href="mailto:mohammad.s.fathi98@gmail.com">✉️ mohammad.s.fathi98@gmail.com</a><br>
@@ -18,3 +12,8 @@ description: >
 
 show_downloads: false
 google_analytics:
+
+# --- Theme settings ---
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
