@@ -1,4 +1,4 @@
-# Welcome 👋
+# Welcome 
 
 I'm Mohammad Fathi — a researcher passionate about **AI, neuroimaging, and brain–computer interfaces**.
 
