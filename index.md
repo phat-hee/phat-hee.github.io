@@ -1,6 +1,6 @@
 # Welcome 👋
 
-I'm Mohammad Fathi — a researcher passionate about **AI, neuroimaging, and brain–computer interfaces**.
+I'm Mohammad Fathi — a researcher passionate about **AI, neuroimaging, Data mining, and brain–computer interfaces**.
 
 ## 🔬 Projects
 - **fNIRS-based MCI Classification:** Developed a temporal graph neural network to classify mild cognitive impairment (MCI) and healthy controls.  
