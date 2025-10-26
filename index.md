@@ -8,6 +8,8 @@ I completed my master's degree **ranked 2nd** in my program, conducting my thesi
 
 ## 🔬 Projects
 - **fNIRS-based MCI Classification:** Designed a temporal graph neural network (GConvGRU) for diagnosing mild cognitive impairment using resting-state fNIRS data.  
+- **EEG Temporal Graph Neural Network for AD and FTD:** Developed a TGNN framework to classify **Alzheimer’s disease (AD)**, **Frontotemporal Dementia (FTD)**, and **Healthy Controls (HC)** using resting-state EEG data.  
+  🔗 [GitHub Repository](https://github.com/phat-hee/eeg__temporalgraph_ad_ftd_hc)
 - **EEG Deep Learning Pipeline:** Developed a multi-band attention fusion model combining GraphSAGE and LSTM networks for EEG-based brain decoding.  
 - **ABIDE fMRI Graph Analysis:** Automated temporal graph generation and sliding-window functional connectivity modeling using graph neural networks with explainability.  
 - **Water Network Anomaly Detection:** Built deep learning models for predictive maintenance and leakage detection in water distribution networks.  
@@ -28,6 +30,7 @@ I completed my master's degree **ranked 2nd** in my program, conducting my thesi
 ### ⚙️ Work in Progress
 - **Classification of Healthy Controls vs. Alzheimer's and Frontotemporal Dementia Using Temporal Graph Neural Networks: A Resting-State EEG Study**  
   *M. Fathi, M. Faramarzi, M. Gholami, M.M. Pedram*
+   🔗 [GitHub Repository](https://github.com/phat-hee/eeg__temporalgraph_ad_ftd_hc)
 - **Graph Neural Networks with Explainability for Classifying Autism Spectrum Disorder in the ABIDE-I Resting-State fMRI Dataset**  
   *M. Fathi, M. Faramarzi, M. Gholami, M. Pakravan*
 
