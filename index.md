@@ -1,4 +1,4 @@
-# Welcome 👋
+# Welcome 
 I'm **Mohammad Fathi**, a **Master's graduate in Data Mining** from **Kharazmi University** (GPA: 3.74/4.0).  
 My research bridges **Artificial Intelligence, Data Mining, and Computational Neuroscience**, with a focus on **neuroimaging analysis** and **brain–computer interfaces (BCI)**.
 
