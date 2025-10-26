@@ -10,7 +10,7 @@ I completed my master's degree **ranked 2nd** in my program, conducting my thesi
 - **fNIRS-based MCI Classification:** Designed a temporal graph neural network (GConvGRU) for diagnosing mild cognitive impairment using resting-state fNIRS data.  
 - **EEG Temporal Graph Neural Network for AD and FTD:** Developed a TGNN framework to classify **Alzheimer’s disease (AD)**, **Frontotemporal Dementia (FTD)**, and **Healthy Controls (HC)** using resting-state EEG data.  
   🔗 [GitHub Repository](https://github.com/phat-hee/eeg__temporalgraph_ad_ftd_hc) 
-- **ABIDE fMRI Graph Analysis"": **causality-based graph construction methods** to generate dynamic brain graphs from resting-state fMRI data using a **sliding-window approach**, and applied **Captum** to identify key nodes and features contributing to classification performance.
+- **ABIDE fMRI Graph Analysis**: **causality-based graph construction methods** to generate dynamic brain graphs from resting-state fMRI data using a **sliding-window approach**, and applied **Captum** to identify key nodes and features contributing to classification performance.
 - **Water Network Anomaly Detection:** Built deep learning models for predictive maintenance and leakage detection in water distribution networks.  
 
 ---
