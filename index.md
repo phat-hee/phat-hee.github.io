@@ -19,14 +19,18 @@ This project formed the core of my **Master’s thesis**, earning a perfect grad
 ---
 
 ### ⚡ EEG Temporal Graph Neural Network for AD and FTD  
-[🔗 GitHub Repository](https://github.com/phat-hee/eeg__temporalgraph_ad_ftd_hc)  
-Developed a **temporal graph neural network** framework to distinguish **Alzheimer’s Disease (AD)**, **Frontotemporal Dementia (FTD)**, and **Healthy Controls (HC)** from resting-state EEG data.  
-I proposed the modeling strategy, designed and implemented the entire pipeline, and guided the team’s methodological choices.  
-- Processed the pre-cleaned EEG data and generated **temporal functional connectivity graphs** using **Granger causality** (instead of purely correlation-based methods) for **better interpretability**.  
-- Explored multiple network architectures and finalized a **GraphSAGE + LSTM** hybrid model with **attention-based fusion**.  
-- Combined information from **alpha** and **beta** frequency bands, as they showed the strongest discriminative power.  
-- Analyzed results both for the **whole brain** and **separated lobes** to identify which regions were most relevant for each impairment type.  
-This work builds directly on my thesis and extends it from fNIRS to EEG data.
+[🔗 GitHub Repository](https://github.com/phat-hee/eeg__temporalgraph_ad_ftd_hc)
+
+Developed and implemented a **temporal graph neural network (TGNN)** framework to classify **Alzheimer’s Disease (AD)**, **Frontotemporal Dementia (FTD)**, and **Healthy Controls (HC)** from resting-state EEG data.  
+I was responsible for **all stages of the project**, including data handling, model design, and full implementation.  
+
+- Processed pre-cleaned EEG data and generated **temporal functional connectivity graphs** using **Granger causality** for interpretability.  
+- Designed, coded, and optimized the entire **PyTorch-based pipeline**, including **graph generation**, **feature extraction**, **model architecture**, and **training procedure**.  
+- Experimented with multiple GNN architectures and finalized a **GraphSAGE + LSTM** hybrid model with **attention-based fusion** across **alpha** and **beta** frequency bands.  
+- Performed both **whole-brain** and **lobe-level** analyses to identify which regions were most relevant for each impairment type.  
+- Demonstrated that **attention mechanisms** improved interpretability by highlighting the contribution of frequency bands and brain regions.  
+
+This project extended the framework I developed in my **Master’s thesis** (based on fNIRS data) to EEG, showing the **cross-modality potential** of temporal graph neural networks for neurodegenerative disease classification.
 
 ---
 
