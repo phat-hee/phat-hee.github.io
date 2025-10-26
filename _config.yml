@@ -13,6 +13,6 @@ description: >
 show_downloads: false
 
 # Theme settings
-remote_theme: pages-themes/minimal@v0.7.0
+remote_theme: pages-themes/minimal
 plugins:
   - jekyll-remote-theme
