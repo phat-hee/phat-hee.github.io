@@ -40,11 +40,6 @@ We employed **causality-based graph construction** to build dynamic brain graphs
 
 ---
 
-### 💧 Water Network Anomaly Detection
-Developed deep learning models for **predictive maintenance** and **leakage detection** in water distribution networks using time-series sensor data.  
-Implemented anomaly detection pipelines combining LSTM autoencoders and graph-based representations to capture spatial relationships among nodes.
-
-
 ## 📚 Publications
 ### 🧠 Under Review
 - **A Novel Hybrid Method Based on Deep Learning for Alzheimer's Disease Diagnosis**  
