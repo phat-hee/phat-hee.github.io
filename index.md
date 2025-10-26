@@ -17,12 +17,11 @@ I performed **all preprocessing and modeling steps** except for data acquisition
 This project formed the core of my **Master’s thesis**, earning a perfect grade (20/20).
 
 ---
-
 ### ⚡ EEG Temporal Graph Neural Network for AD and FTD  
 [🔗 GitHub Repository](https://github.com/phat-hee/eeg__temporalgraph_ad_ftd_hc)
 
 Developed and implemented a **temporal graph neural network (TGNN)** framework to classify **Alzheimer’s Disease (AD)**, **Frontotemporal Dementia (FTD)**, and **Healthy Controls (HC)** from resting-state EEG data.  
-I was responsible for **all stages of the project**, including data handling, model design, and full implementation.  
+I was responsible for **all stages of the technical development**, including data handling, model design, and full code implementation, while collaborating with a **team of researchers** who focused on report writing and documentation.  
 
 - Processed pre-cleaned EEG data and generated **temporal functional connectivity graphs** using **Granger causality** for interpretability.  
 - Designed, coded, and optimized the entire **PyTorch-based pipeline**, including **graph generation**, **feature extraction**, **model architecture**, and **training procedure**.  
@@ -31,6 +30,7 @@ I was responsible for **all stages of the project**, including data handling, mo
 - Demonstrated that **attention mechanisms** improved interpretability by highlighting the contribution of frequency bands and brain regions.  
 
 This project extended the framework I developed in my **Master’s thesis** (based on fNIRS data) to EEG, showing the **cross-modality potential** of temporal graph neural networks for neurodegenerative disease classification.
+
 
 ---
 
