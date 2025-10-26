@@ -1,18 +1,18 @@
-
+# Site settings
 title: "Mohammad Fathi"
 description: >
-Master's graduate in Data Mining | AI Researcher
-<br><br>
-Specializing in AI, Data Mining, Computational Neuroscience & Neuroimaging Analysis
-<br><br>
-<a href="https://phat-hee.github.io/Mohammad_Fathi_CV_oct.pdf" target="_blank" style="text-decoration:none;">📄 CV</a> |
-<a href="mailto:mohammad.s.fathi98@gmail.com" style="text-decoration:none;">✉️ Email</a> |
-<a href="https://github.com/phat-hee" style="text-decoration:none;">🐙 GitHub</a> |
-<a href="https://linkedin.com/in/mohammad-fathi98" style="text-decoration:none;">🔗 LinkedIn</a>
+  Master's graduate in Data Mining | AI Researcher
+  <br><br>
+  Specializing in AI, Data Mining, Computational Neuroscience & Neuroimaging Analysis
+  <br><br>
+  <a href="https://phat-hee.github.io/Mohammad_Fathi_CV_oct.pdf" target="_blank" style="text-decoration:none;">📄 CV</a> | 
+  <a href="mailto:mohammad.s.fathi98@gmail.com" style="text-decoration:none;">✉️ Email</a> | 
+  <a href="https://github.com/phat-hee" style="text-decoration:none;">🐙 GitHub</a> | 
+  <a href="https://linkedin.com/in/mohammad-fathi98" style="text-decoration:none;">🔗 LinkedIn</a>
+
 show_downloads: false
 
-
+# Theme settings
 remote_theme: pages-themes/minimal@v0.7.0
 plugins:
-
-jekyll-remote-theme
+  - jekyll-remote-theme
