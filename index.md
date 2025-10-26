@@ -1,10 +1,8 @@
 # Welcome 👋
-I'm **Mohammad Fathi**, a **Master's graduate in Data Mining** from **Kharazmi University** (GPA: 3.74/4.0, **ranked 2nd** in my program).  
+I'm **Mohammad Fathi**, a **Master's graduate in Data Mining** from **Kharazmi University** (GPA: 3.74/4.0).  
 My research bridges **Artificial Intelligence, Data Mining, and Computational Neuroscience**, with a focus on **neuroimaging analysis** and **brain–computer interfaces (BCI)**.
 
-I completed my master's thesis research at the **Kharazmi Cognitive and Brain Science Lab** under the supervision of **Dr. Mir Mohsen Pedram**, where I developed a **temporal graph neural network (TGNN)** framework to classify **Mild Cognitive Impairment (MCI)** and **healthy controls (HC)** using **fNIRS** resting-state data.
-
-Currently, I work as a **Data Scientist** at **Atitarh System Saman**, developing machine learning models for anomaly detection and predictive maintenance in water distribution networks.
+I completed my master's degree **ranked 2nd** in my program, conducting my thesis research at the **Kharazmi Cognitive and Brain Science Lab** under the supervision of **Dr. Mir Mohsen Pedram**. I developed a **temporal graph neural network (TGNN)** framework to classify **Mild Cognitive Impairment (MCI)** and **healthy controls (HC)** using **fNIRS** resting-state data, earning a perfect thesis grade of **20/20**.
 
 ---
 
