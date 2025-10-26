@@ -1,9 +1,23 @@
 ---
-   ---
-   @import "{{ site.theme }}";
-   
-   // Custom improvements
-   h2 { color: #0366d6; border-bottom: 2px solid #e1e4e8; padding-bottom: 8px; }
-   strong { color: #24292e; }
-   a { text-decoration: none; }
-   a:hover { text-decoration: underline; }
+---
+
+@import "{{ site.theme }}";
+
+// Custom improvements
+h2 { 
+  color: #0366d6; 
+  border-bottom: 2px solid #e1e4e8; 
+  padding-bottom: 8px; 
+}
+
+strong { 
+  color: #24292e; 
+}
+
+a { 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: underline; 
+}
