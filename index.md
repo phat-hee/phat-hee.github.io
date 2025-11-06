@@ -39,13 +39,12 @@ This project extended the framework I developed in my **Master’s thesis** (bas
 Developed and implemented a CLIP-based deep learning pipeline to classify breast cancer screening images into four categories: Benign, Actionable, Cancer, and Normal from Digital Breast Tomosynthesis (DBT) data.
 I was responsible for all stages of the technical development, including data preprocessing, feature extraction, model design, and full code implementation, while ensuring reproducibility and leak-safe evaluation.
 
-Designed a leak-safe data pipeline by performing train/validation/test splits before any augmentation or resampling, preventing data leakage and ensuring valid evaluation metrics.
-Implemented CLIP (ViT-B/32) as a feature extractor to generate 512-dimensional embeddings from mammography images, with targeted augmentation (horizontal/vertical flips, rotation, brightness/contrast adjustments) applied only to minority classes in the training set.
-Addressed severe class imbalance using SMOTETomek resampling on training features and implemented Focal Loss with Effective Number of Samples (ENS) class weighting to improve minority class performance.
-Designed, coded, and optimized the entire PyTorch-based pipeline, including a 2-layer MLP classifier with batch normalization and dropout, trained with Adam optimizer and cosine annealing learning rate scheduling.
-Conducted comprehensive performance evaluation across multiple metrics: accuracy, balanced accuracy, macro F1/precision/recall, per-class AUC, and specificity, with ROC and precision-recall curves for interpretability.
-Automated reproducible reporting by generating structured outputs (confusion matrices, training curves, per-class metrics) exported as JPG figures and Word documents with captions and descriptions.
-Ensured full reproducibility by auto-installing dependencies, downloading datasets via Kaggle API, and setting random seeds across NumPy, PyTorch, and Python's random module.
+ - Implemented CLIP (ViT-B/32) as a feature extractor to generate 512-dimensional embeddings from mammography images, with targeted augmentation (horizontal/vertical flips, rotation, brightness/contrast adjustments) applied only to minority classes in the training set.
+ - Addressed severe class imbalance using SMOTETomek resampling on training features and implemented Focal Loss with Effective Number of Samples (ENS) class weighting to improve minority class performance.
+ - Designed, coded, and optimized the entire PyTorch-based pipeline, including a 2-layer MLP classifier with batch normalization and dropout, trained with Adam optimizer and cosine annealing learning rate scheduling.
+ - Conducted comprehensive performance evaluation across multiple metrics: accuracy, balanced accuracy, macro F1/precision/recall, per-class AUC, and specificity, with ROC and precision-recall curves for interpretability.
+ - Automated reproducible reporting by generating structured outputs (confusion matrices, training curves, per-class metrics) exported as JPG figures and Word documents with captions and descriptions.
+ - Ensured full reproducibility by auto-installing dependencies, downloading datasets via Kaggle API, and setting random seeds across NumPy, PyTorch, and Python's random module.
 
 This project demonstrated how transfer learning with vision-language models (CLIP), combined with careful handling of imbalances and rigorous evaluation protocols, can achieve robust classification performance on medical imaging tasks using limited and imbalanced datasets.
 
