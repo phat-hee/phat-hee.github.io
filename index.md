@@ -37,16 +37,18 @@ This project extended the framework I developed in my **Master’s thesis** (bas
 [🔗 GitHub Repository](https://github.com/phat-hee/DBT-CLIP-Breast-Cancer-Classification-via-Transfer-Learning)
 
 Developed and implemented a CLIP-based deep learning pipeline to classify breast cancer screening images into four categories: Benign, Actionable, Cancer, and Normal from Digital Breast Tomosynthesis (DBT) data.
-I was responsible for all stages of the technical development, including data preprocessing, feature extraction, model design, and full code implementation, while ensuring reproducibility and leak-safe evaluation.
 
- - Implemented CLIP (ViT-B/32) as a feature extractor to generate 512-dimensional embeddings from mammography images, with targeted augmentation (horizontal/vertical flips, rotation, brightness/contrast adjustments) applied only to minority classes in the training set.
- - Addressed severe class imbalance using SMOTETomek resampling on training features and implemented Focal Loss with Effective Number of Samples (ENS) class weighting to improve minority class performance.
- - Designed, coded, and optimized the entire PyTorch-based pipeline, including a 2-layer MLP classifier with batch normalization and dropout, trained with Adam optimizer and cosine annealing learning rate scheduling.
- - Conducted comprehensive performance evaluation across multiple metrics: accuracy, balanced accuracy, macro F1/precision/recall, per-class AUC, and specificity, with ROC and precision-recall curves for interpretability.
- - Automated reproducible reporting by generating structured outputs (confusion matrices, training curves, per-class metrics) exported as JPG figures and Word documents with captions and descriptions.
- - Ensured full reproducibility by auto-installing dependencies, downloading datasets via Kaggle API, and setting random seeds across NumPy, PyTorch, and Python's random module.
 
-This project demonstrated how transfer learning with vision-language models (CLIP), combined with careful handling of imbalances and rigorous evaluation protocols, can achieve robust classification performance on medical imaging tasks using limited and imbalanced datasets.
+
+- Implemented CLIP (ViT-B/32) as a frozen feature extractor to generate 512-dimensional embeddings from mammography images, leveraging pre-trained vision-language representations for medical image understanding.
+- Applied Albumentations-based augmentation (horizontal/vertical flips, random rotation, brightness/contrast adjustment, shift-scale-rotate) selectively to the two minority classes during feature extraction to improve representation learning without contaminating validation/test sets.
+- Addressed severe class imbalance using SMOTETomek resampling (combining SMOTE oversampling with Tomek links undersampling) applied exclusively to training features, balancing classes while removing borderline examples.
+- Designed a 2-layer MLP classifier (512 → 256 → 128 → 4) with batch normalization after each hidden layer and dropout (p=0.5) for regularization, optimized with Adam optimizer (lr=1e-3, weight_decay=1e-5).
+- Implemented Focal Loss with gamma=2.0 combined with Effective Number of Samples (ENS) class weighting (beta=0.999) to dynamically focus training on hard-to-classify examples and minority classes, improving gradient flow for underrepresented categories.
+- Applied cosine annealing learning rate scheduling over 30 epochs with early stopping based on validation loss, using mini-batch training (batch_size=32) with model checkpointing to prevent overfitting.
+- Conducted comprehensive multi-metric evaluation including accuracy, balanced accuracy, macro-averaged F1/precision/recall, per-class AUC-ROC, per-class specificity, and generated one-vs-rest ROC and precision-recall curves to assess binary classification performance for each pathology type.
+
+This project demonstrated how transfer learning with vision-language models (CLIP) combined with advanced imbalance handling techniques (hybrid resampling + focal loss + class weighting) and rigorous leak-prevention protocols can achieve robust multi-class classification on medical imaging tasks with severe class imbalance.
 
 
 ---
