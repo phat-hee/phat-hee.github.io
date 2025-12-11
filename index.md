@@ -56,7 +56,7 @@ This project demonstrated how transfer learning with vision-language models (CLI
 ---
 
 ### 🧩 ABIDE fMRI Graph Analysis
-Generated  **temporal graph ** from fmri data using **sliding-window ** and using graph neural networks for classification with explainability.  
+Generated  temporal graphs from fmri data using sliding-window and using graph neural networks for classification with explainability.  
 We employed **causality-based graph construction** to build dynamic brain graphs from resting-state fMRI data and used **Captum** Saliency map (SmoothGrad = Saliency + noise averagin) with  to identify key nodes and features contributing to classification performance. 
 
 ---
