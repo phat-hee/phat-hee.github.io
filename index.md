@@ -54,8 +54,8 @@ This project demonstrated how transfer learning with vision-language models (CLI
 ---
 
 ### 🧩 ABIDE fMRI Graph Analysis
-Automated **temporal graph generation** and **sliding-window functional connectivity modeling** using graph neural networks with explainability.  
-We employed **causality-based graph construction** to build dynamic brain graphs from resting-state fMRI data and used **Captum** to identify key nodes and features contributing to classification performance.  
+Generated  **temporal graph ** from fmri data using **sliding-window ** and using graph neural networks for classification with explainability.  
+We employed **causality-based graph construction** to build dynamic brain graphs from resting-state fMRI data and used **Captum** Saliency map (SmoothGrad = Saliency + noise averagin) with  to identify key nodes and features contributing to classification performance.  
 
 ---
 
@@ -64,9 +64,6 @@ We employed **causality-based graph construction** to build dynamic brain graphs
 - **A Novel Hybrid Method Based on Deep Learning for Alzheimer's Disease Diagnosis**  
   *M. Fathi, M. Faramarzi, M. Gholami, M.M. Pedram*  
   [_Applied Intelligence_]  
-- **Predicting Cognitive Impairment and Dementia in the Health and Retirement Study of America: A Machine and Deep Learning Approach**  
-  *N. Alipour, M. Faramarzi, M. Gholami, M. Fathi, N. Deravi*  
-  [_Acta Neurologica Belgica_]
 
 ---
 
