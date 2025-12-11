@@ -42,13 +42,12 @@ Developed and implemented a CLIP-based deep learning pipeline to classify breast
 
 
 
-- Implemented CLIP (ViT-B/32) as a frozen feature extractor to generate 512-dimensional embeddings from mammography images, leveraging pre-trained vision-language representations for medical image understanding.
-- Applied Albumentations-based augmentation (horizontal/vertical flips, random rotation, brightness/contrast adjustment, shift-scale-rotate) selectively to the two minority classes during feature extraction to improve representation learning without contaminating validation/test sets.
-- Addressed severe class imbalance using SMOTETomek resampling (combining SMOTE oversampling with Tomek links undersampling) applied exclusively to training features, balancing classes while removing borderline examples.
-- Designed a 2-layer MLP classifier (512 → 256 → 128 → 4) with batch normalization after each hidden layer and dropout (p=0.5) for regularization, optimized with Adam optimizer (lr=1e-3, weight_decay=1e-5).
-- Implemented Focal Loss with gamma=2.0 combined with Effective Number of Samples (ENS) class weighting (beta=0.999) to dynamically focus training on hard-to-classify examples and minority classes, improving gradient flow for underrepresented categories.
-- Applied cosine annealing learning rate scheduling over 30 epochs with early stopping based on validation loss, using mini-batch training (batch_size=32) with model checkpointing to prevent overfitting.
-- Conducted comprehensive multi-metric evaluation including accuracy, balanced accuracy, macro-averaged F1/precision/recall, per-class AUC-ROC, per-class specificity, and generated one-vs-rest ROC and precision-recall curves to assess binary classification performance for each pathology type.
+- Used CLIP (ViT-B/32) as a frozen feature extractor to generate 512-dimensional embeddings from mammography images, leveraging pretrained vision-language representations..
+- Applied Albumentations augmentations (flips, rotations, brightness/contrast, shift-scale-rotate) only to minority classes during training-time feature extraction to avoid leakage into validation/test sets.
+- Handled severe imbalance with SMOTETomek (SMOTE oversampling + Tomek links undersampling) applied exclusively to training features.
+- Built a 2-layer MLP classifier (512→256→128→4) with batch normalization and dropout (p=0.5), optimized using Adam (lr=1e-3, weight_decay=1e-5).
+- Used Focal Loss (γ=2.0) combined with Effective Number of Samples (β=0.999) for dynamic class weighting and better minority-class gradient flow.
+- Trained with cosine annealing over 30 epochs, early stopping, mini-batches (32), and model checkpointing.
 
 This project demonstrated how transfer learning with vision-language models (CLIP) combined with advanced imbalance handling techniques (hybrid resampling + focal loss + class weighting) and rigorous leak-prevention protocols can achieve robust multi-class classification on medical imaging tasks with severe class imbalance.
 
