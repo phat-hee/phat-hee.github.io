@@ -20,14 +20,16 @@ This project formed the core of my **Master’s thesis**, earning a perfect grad
 ### ⚡ EEG Temporal Graph Neural Network for AD and FTD  
 [🔗 GitHub Repository](https://github.com/phat-hee/eeg__temporalgraph_ad_ftd_hc)
 
-Developed and implemented a **temporal graph neural network (TGNN)** framework to classify **Alzheimer’s Disease (AD)**, **Frontotemporal Dementia (FTD)**, and **Healthy Controls (HC)** from resting-state EEG data.  
+Developed and implemented a **temporal graph neural network (TGNN)** framework to classify **Alzheimer’s Disease (AD)**, **Frontotemporal Dementia (FTD)**, and **Healthy Controls (HC)** from resting-state EEG data. 
+We used multiple explainability techniques—Integrated Gradients, Saliency Maps, and DeepLIFT from the Captum library to identify the most influential nodes in our graph-based model. We then compared these model-derived important nodes to two external references: (1) clinical reports describing the clinically affected regions, and (2) a lobe-wise tarining . This allowed us to evaluate how well the explainability outputs align with known clinical findings at both the node and lobe levels.
 I was responsible for **all stages of the technical development**, including data handling, model design, and full code implementation, while collaborating with a **team of researchers** who focused on report writing and documentation.  
 
 - Processed pre-cleaned EEG data and generated **temporal functional connectivity graphs** using **Granger causality** for interpretability.  
 - Designed, coded, and optimized the entire **PyTorch-based pipeline**, including **graph generation**, **feature extraction**, **model architecture**, and **training procedure**.  
 - Experimented with multiple GNN architectures and finalized a **GraphSAGE + LSTM** hybrid model with **attention-based fusion** across **alpha** and **beta** frequency bands.  
 - Performed both **whole-brain** and **lobe-level** analyses to identify which regions were most relevant for each impairment type.  
-- Demonstrated that **attention mechanisms** improved interpretability by highlighting the contribution of frequency bands and brain regions.  
+- Demonstrated that **attention mechanisms** improved interpretability by highlighting the contribution of frequency bands and brain regions.
+- Using Explainable methods to identify important nodes, and compare it to clinincal reports and our lobe wise method
 
 This project extended the framework I developed in my **Master’s thesis** (based on fNIRS data) to EEG, showing the **cross-modality potential** of temporal graph neural networks for neurodegenerative disease classification.
 
@@ -55,7 +57,7 @@ This project demonstrated how transfer learning with vision-language models (CLI
 
 ### 🧩 ABIDE fMRI Graph Analysis
 Generated  **temporal graph ** from fmri data using **sliding-window ** and using graph neural networks for classification with explainability.  
-We employed **causality-based graph construction** to build dynamic brain graphs from resting-state fMRI data and used **Captum** Saliency map (SmoothGrad = Saliency + noise averagin) with  to identify key nodes and features contributing to classification performance.  
+We employed **causality-based graph construction** to build dynamic brain graphs from resting-state fMRI data and used **Captum** Saliency map (SmoothGrad = Saliency + noise averagin) with  to identify key nodes and features contributing to classification performance. 
 
 ---
 
